@@ -2,7 +2,7 @@
 
 - step:
     name: Execute python train.py
-    image: kaixhin/cuda-torch:7.0
+    image: floydhub/pytorch:0.2-gpu-py2.8
     command: python train.py
     #inputs:
     #  - name: example-input
