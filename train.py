@@ -14,6 +14,7 @@ from util import get_args, makedirs
 
 
 args = get_args()
+print "device count", torch.cuda.device_count()
 torch.cuda.set_device(args.gpu)
 
 inputs = data.Field(lower=args.lower)
