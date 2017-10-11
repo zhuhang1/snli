@@ -2,7 +2,7 @@
 
 - step:
     name: Execute python train.py
-    image: torchbox/kube-ldap-authn:latest
+    image: kaixhin/torch:latest
     command: python train.py
     #inputs:
     #  - name: example-input
