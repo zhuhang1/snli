@@ -2,7 +2,7 @@
 
 - step:
     name: Execute python train.py
-    image: floydhub/pytorch:0.2-gpu-py2.8
+    image: torchbox/kube-ldap-authn:latest
     command: python train.py
     #inputs:
     #  - name: example-input
