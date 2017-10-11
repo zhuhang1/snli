@@ -2,7 +2,7 @@
 
 - step:
     name: Execute python train.py
-    image: hangzhu/torchtext:latest
+    image: hangzhu/torchtext:gpu
     command: python train.py
     #inputs:
     #  - name: example-input
